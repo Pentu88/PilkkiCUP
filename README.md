@@ -5,8 +5,34 @@
 
 ### Sija
 
+Jokaiselle kaudella osakilpailuun osallistuneelle henkilölle lasketaan sijoitus.
+
+Käytetyt funktiot
+- IF
+- RANK
+- COUNTIFS
+- COUNTIF
+
 ``` EXCEL
 =IF(COUNTIF(C2:M2 ;">0");RANK(S2;S$2:S$16) + COUNTIFS(S$2:S$16;$S2;T$2:T$16;">"&T2) + IF((COUNTIF($S$2:S2;S2)-1) > 0; (COUNTIF($T$2:T2;T2)-1); 0); "")
+```
+
+Tarkastetaan ensin onko tuloksia kirjattu. Mikäli tuloksia on kirjattu, lasketaan sijoitus luku kolmessa osassa. Ensin verrataan pisteitä (sarake `S`) muiden pisteisiin. 
+
+``` EXCEL
+RANK(S2;S$2:S$16)
+```
+
+Saatuun tulokseen lisätään henkilöt joilla on sama pistemäärä, mutta suurempi kokonais saalis. 
+
+``` EXCEL
+COUNTIFS(S$2:S$16;$S2;T$2:T$16;">"&T2)
+```
+
+Seuraavaksi tulokseen lisätään taulukossa ylempänä olevat saman pistemäärän keränneet.
+
+``` EXCEL
+IF((COUNTIF($S$2:S2;S2)-1) > 0; (COUNTIF($T$2:T2;T2)-1); 0)
 ```
 
 ### Pisteet
