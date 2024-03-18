@@ -1,7 +1,10 @@
 # PilkkiCUP
 
-## 2 Tulokset
+- [Sarjataulukko]()
+- [Tulokset]()
+- [Suurin kala]()
 
+## 2 Tulokset
 
 ### 2.1 Sija
 
