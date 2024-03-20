@@ -1,5 +1,14 @@
 # Funktiot
 
+## IF
+
+`IF(Ehto, Tosi, [Epätosi])`
+
+funktion syntaksissa on seuraava argumentti:
+- **Ehto**, jota testataan.
+- **Tosi** Palautettava arvo ehdon toteutuessa.
+- ***Epätosi*** Palautettava arvo, kun ehto jää toteutumatta.
+
 ## RANK
 
 `RANK(luku;viittaus;[järjestys])`
