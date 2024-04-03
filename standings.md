@@ -1,6 +1,8 @@
 # Sarjataulukko
 Tällä sivulla kilpailijat näytetään järjestyksessä. 
 
+![sarjataulukko](Cup_Sarjataulukko.png)
+
 ## Sija
 
 `=IF(Tulokset.A2 = "";"";1)`
