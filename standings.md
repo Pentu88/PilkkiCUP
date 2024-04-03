@@ -5,7 +5,12 @@ Tällä sivulla kilpailijat näytetään järjestyksessä.
 
 ## Sija
 
-`=IF(Tulokset.A2 = "";"";1)`
+Lisätään sijoitus, mikäli "Tulokset" -välilehdellä on kirjattu samalle riville mikätahansa sijoitus sarakkeessa A.
+
+`=IF(Tulokset.A2 = "";"";X)`
+
+> [!NOTE]
+> Tämä on ongelmallinen tapa, mikäli välissä on kilpailijoita, joilla ei ole vielä tulosta.
 
 ## Kilpailija
 
