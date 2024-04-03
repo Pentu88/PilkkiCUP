@@ -5,9 +5,9 @@ Tällä sivulla kilpailijat näytetään järjestyksessä.
 
 ## Sija
 
-Lisätään järjestyksessä seuraava sija -luku, mikäli "Tulokset" -välilehdellä on kirjattu vasdtaavalle riville mikätahansa sijoitus sarakkeessa A.
+Lisätään järjestyksessä seuraava sija -luku, mikäli "Tulokset" -välilehdellä on kirjattu vastaavalle riville mikätahansa sijoitus sarakkeessa A.
 
-`=IF(Tulokset.A2 = "";"";X)`
+`=IF(Tulokset.A2 = "";"";1)`
 
 > [!NOTE]
 > Tämä on ongelmallinen tapa, mikäli välissä on kilpailijoita, joilla ei ole vielä tulosta.
