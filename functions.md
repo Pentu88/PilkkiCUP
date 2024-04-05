@@ -40,4 +40,12 @@ funktion syntaksissa on seuraavat argumentit:
 - **Ehto1**, jotka tarkastetaan.
 - ***Alue2, Ehto2***  Lisäalueet ja niiden ehdot.
 
+## VLOOKUP
+
+`PHAKU (Hakuarvo; taulukko_matriisi; sar_indeksi; [alue_haku])`
+
+- **Hakuarvo**, jota etsitään taulukko_matriisin ensinmäisestä sarakkeesta.
+- **taulukko_matriisi** on solualue, jolta etsitään hakuarvoa ja palautusarvoa.
+- **sar_indeksi**, josta arvo palautetaan.
+- ***alue_haku***
 
