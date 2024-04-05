@@ -14,6 +14,8 @@ Lisätään järjestyksessä seuraava sija -luku, mikäli "Tulokset" -välilehde
 
 ## Kilpailija
 
+Haetaan arvoa "Tulokset" välilehdeltä, Kilpailija sarakkeesta nimi riviltä, jolla kilpailijan sijoitus täsmää etsittyyn lukuun. 
+
 `=VLOOKUP(B4;Tulokset.$A$2:$P$13;2;0)`
 
 ## Pisteet
