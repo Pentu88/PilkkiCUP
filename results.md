@@ -40,11 +40,15 @@ IF((COUNTIF($S$2:S2;S2)-1) > 0; (COUNTIF($T$2:T2;T2)-1); 0)
 
 ## 2.3 Saalis
 
+Lasketaan kilpailijan saalis yhteen kokokauden ajalta sarakkeista `C`-`M`, sekä lisätään mahdollinen korjaus yhteispainoon sarakkeesta `W`. 
+
 ``` EXCEL
 =IF($B2 = ""; ""; SUM(C2:M2)+W2)
 ```
 
 ## 2.4 Osallistuminen
+
+Lasketaan kilpailijan osallistumis kerrat yhteen kokokauden ajalta, keräämällä kilpailijalle kirjattujen punitus tulosten määrä sarakkeista `C`-`M`.
 
 ``` EXCEL
 =IF($B2 = ""; ""; COUNT(C2:M2))
