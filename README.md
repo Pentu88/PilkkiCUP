@@ -7,7 +7,10 @@ Jokainen tulos on dokumentoitu _PilkkiCUP_ -sarjan ensimäisestä osakilpailusta
 Tähän dokumentaatioon on kerätty kaavat Excel -dokumentista, joka toimii epävirallisena digitalisoituna pöytäkirjana.
 
 ## Dokumentaatio
+### Välilehdet
 - [1. Sarjataulukko](standings.md)
 - [2. Tulokset](results.md)
 - [3. Suurin kala]()
+
+  
 - [Funktiot](functions.md)
