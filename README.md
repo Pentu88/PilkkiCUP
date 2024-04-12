@@ -12,5 +12,6 @@ Tähän dokumentaatioon on kerätty kaavat Excel -dokumentista, joka toimii epä
 - [2. Tulokset](results.md)
 - [3. Suurin kala]()
 
-  
+
+### Muuta
 - [Funktiot](functions.md)
