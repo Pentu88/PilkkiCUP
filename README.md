@@ -2,7 +2,7 @@
 
 PilkkiCUP on pienen porukan sarjamuotoinen leikkimielinen talvikalastus kilpailu. Kilpailu aloitettu jo keväällä 2014.
 
-Jokainen tulos on dokumentoitu _PilkkiCUP_in ensimäisestä osakilpailusta alkaen. Virallisena kilpailu pöytäkirjana toimii paperinen dokumentti, johon tulokset kirjataan, kun kipailijat tuovat saaliinsa punnittavaksi. 
+Jokainen tulos on dokumentoitu _PilkkiCUP_ -sarjan ensimäisestä osakilpailusta alkaen. Virallisena kilpailu pöytäkirjana toimii paperinen dokumentti, johon tulokset kirjataan, kun kipailijat tuovat saaliinsa punnittavaksi. 
 
 Tähän dokumentaatioon on kerätty kaavat Excel -dokumentista, joka toimii epävirallisena digitalisoituna pöytäkirjana.
 
