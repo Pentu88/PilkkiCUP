@@ -4,11 +4,8 @@
 
 ## 2.1 Sija
 
-Käytetyt funktiot:
-- IF
-- RANK
-- COUNTIFS
-- COUNTIF
+**Käytetyt funktiot:** [IF](functions.md#if), [RANK](functions.md#rank), [COUNTIF](functions.md#countif),
+
 
 Sarakkeeseen `A` lasketaan jokaiselle kyseisellä kaudella osakilpailuun osallistuneelle henkilölle sijoitus vertailemalla kerättyjä pisteitä muiden kilpailijoiden pisteisiin. Pisteiden ollessa tasan, vertaillaan myös kokonais saaliita.
 ``` EXCEL
