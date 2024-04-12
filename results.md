@@ -4,9 +4,6 @@
 
 ## 2.1 Sija
 
-**Käytetyt funktiot:** [IF](functions.md#if), [RANK](functions.md#rank), [COUNTIF](functions.md#countif), [COUNTIFS](functions.md#countifs)
-
-
 Sarakkeeseen `A` lasketaan jokaiselle kyseisellä kaudella osakilpailuun osallistuneelle henkilölle sijoitus vertailemalla kerättyjä pisteitä muiden kilpailijoiden pisteisiin. Pisteiden ollessa tasan, vertaillaan myös kokonais saaliita.
 ``` EXCEL
 =IF(COUNTIF(C2:M2 ;">0");RANK(S2;S$2:S$16) + COUNTIFS(S$2:S$16;$S2;T$2:T$16;">"&T2) + IF((COUNTIF($S$2:S2;S2)-1) > 0; (COUNTIF($T$2:T2;T2)-1); 0); "")
@@ -31,6 +28,8 @@ Seuraavaksi tulokseen lisätään taulukossa ylempänä olevat saman pistemäär
 ``` EXCEL
 IF((COUNTIF($S$2:S2;S2)-1) > 0; (COUNTIF($T$2:T2;T2)-1); 0)
 ```
+
+***Käytetyt funktiot:** [IF](functions.md#if), [RANK](functions.md#rank), [COUNTIF](functions.md#countif), [COUNTIFS](functions.md#countifs)*
 
 ## 2.2 Pisteet
 
