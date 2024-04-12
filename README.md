@@ -15,3 +15,7 @@ Tähän dokumentaatioon on kerätty kaavat Excel -dokumentista, joka toimii epä
 
 ### Muuta
 - [Funktiot](functions.md)
+
+## TODO
+
+## Changelog
