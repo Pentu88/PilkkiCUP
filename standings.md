@@ -14,21 +14,25 @@ Lisätään järjestyksessä seuraava sija -luku, mikäli "Tulokset" -välilehde
 
 ## Kilpailija
 
-Haetaan arvoa `Tulokset` -välilehden `B` -sarakkeesta (haku alueen 2. sarake) kilpailijan nimi. Tulos palautetaan riviltä, jolla kilpailijan sijoitus täsmää etsittyyn lukuun. 
+Etsitään kilpailijan nimi `Tulokset` -välilehden `B` -sarakkeesta (haku alueen 2. sarake). Tulos palautetaan riviltä, jolla kilpailijan sijoitus vastaa etsittyä sijoitusta. 
 
 `=VLOOKUP(B4;Tulokset.$A$2:$P$13;2;0)`
 
 ## Pisteet
 
-Haetaan arvoa `Tulokset` -välilehden `S` -sarakkeesta (haku alueen 18. sarake)
+Haetaan arvo `Tulokset` -välilehden `S` -sarakkeesta (haku alueen 18. sarake), johon on laskettu kilpailijoiden keräämät pisteet. Tulos palautetaan riviltä, jolla kilpailijan nimi vastaa etsittyä nimeä.
 
 `=IF(B4="";"";VLOOKUP(C4;Tulokset.$B$2:$U$13;18;0))`
 
 ## Yht. paino
 
+Haetaan arvo `Tulokset` -välilehden `T` -sarakkeesta (haku alueen 19. sarake), johon on laskettu yhteen kunkin kilpailijan keräämä saalis koko kauden ajalta. Tulos palautetaan riviltä, jolla kilpailijan nimi vastaa etsittyä nimeä.
+
 `=IF(B4="";"";VLOOKUP(C4;Tulokset.$B$2:$U$13;19;0))`
 
 ## Kisat
+
+Haetaan arvo `Tulokset` -välilehden `U` -sarakkeesta (haku alueen 20. sarake), johon on laskettu yhteen kunkin kilpailijan osallistumiset koko kauden ajalta. Tulos palautetaan riviltä, jolla kilpailijan nimi vastaa etsittyä nimeä.
 
 `=IF(B4="";"";VLOOKUP(C4;Tulokset.$B$2:$U$13;20;0))`
 
