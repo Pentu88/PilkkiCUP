@@ -1,6 +1,6 @@
 # PilkkiCUP
 
-- [Sarjataulukko]()
+- [Sarjataulukko](standings.md)
 - [Tulokset]()
 - [Suurin kala]()
 
