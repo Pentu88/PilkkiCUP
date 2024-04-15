@@ -1,4 +1,4 @@
-# Sarjataulukko
+# 1 Sarjataulukko
 Tällä sivulla kilpailijat näytetään järjestyksessä. 
 
 ![sarjataulukko](Cup_Sarjataulukko.png)
