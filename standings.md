@@ -1,9 +1,12 @@
 # 1 Sarjataulukko
-Tällä sivulla kilpailijat näytetään järjestyksessä. 
+Tällä sivulla kilpailijat näytetään järjestyksessä.
+
+- [1.1 Sija](#Sija)
+- [g/Kisa](#gKisa)
 
 ![sarjataulukko](Cup_Sarjataulukko.png)
 
-## Sija
+## 1.1 Sija
 
 Lisätään järjestyksessä seuraava sija -luku, mikäli "Tulokset" -välilehdellä on kirjattu vastaavalle riville mikätahansa sijoitus sarakkeessa A.
 
@@ -12,54 +15,54 @@ Lisätään järjestyksessä seuraava sija -luku, mikäli "Tulokset" -välilehde
 > [!NOTE]
 > Tämä on ongelmallinen tapa, mikäli välissä on kilpailijoita, joilla ei ole vielä tulosta.
 
-## Kilpailija
+## 1.2 Kilpailija
 
 Etsitään kilpailijan nimi `Tulokset` -välilehden `B` -sarakkeesta (haku alueen 2. sarake). Tulos palautetaan riviltä, jolla kilpailijan sijoitus vastaa etsittyä sijoitusta. 
 
 `=VLOOKUP(B4;Tulokset.$A$2:$P$13;2;0)`
 
-## Pisteet
+## 1.3 Pisteet
 
 Haetaan arvo `Tulokset` -välilehden `S` -sarakkeesta (haku alueen 18. sarake), johon on laskettu kilpailijoiden keräämät pisteet. Tulos palautetaan riviltä, jolla kilpailijan nimi vastaa etsittyä nimeä.
 
 `=IF(B4="";"";VLOOKUP(C4;Tulokset.$B$2:$U$13;18;0))`
 
-## Yht. paino
+## 1.4 Yht. paino
 
 Haetaan arvo `Tulokset` -välilehden `T` -sarakkeesta (haku alueen 19. sarake), johon on laskettu yhteen kunkin kilpailijan keräämä saalis koko kauden ajalta. Tulos palautetaan riviltä, jolla kilpailijan nimi vastaa etsittyä nimeä.
 
 `=IF(B4="";"";VLOOKUP(C4;Tulokset.$B$2:$U$13;19;0))`
 
-## Kisat
+## 1.5 Kisat
 
 Haetaan arvo `Tulokset` -välilehden `U` -sarakkeesta (haku alueen 20. sarake), johon on laskettu yhteen kunkin kilpailijan osallistumiset koko kauden ajalta. Tulos palautetaan riviltä, jolla kilpailijan nimi vastaa etsittyä nimeä.
 
 `=IF(B4="";"";VLOOKUP(C4;Tulokset.$B$2:$U$13;20;0))`
 
-## p/Kisa
+## 1.6 p/Kisa
 
 Lasketaan kilpailijan pistekeskiarvo.
 
 `=IF(B4="";"";D4/F4)`
 
-## g/Kisa
+## 1.7 g/Kisa
 
 Lasketaan kilpailijan keskimääräinen saalis osakilpailua kohden. 
 
 `=IF(B4="";"";E4/F4)`
 
-## Voitot
+## 1.8 Voitot
 
 `=IF(B4="";"";VLOOKUP(C4;Sijoitus.$B$2:$U$13;18;0))`
 
-## Top 3.
+## 1.9 Top 3.
 
 `=IF(B4="";"";VLOOKUP(C4;Sijoitus.$B$2:$U$13;18;0) + VLOOKUP(C4;Sijoitus.$B$2:$U$13;19;0) + VLOOKUP(C4;Sijoitus.$B$2:$U$13;20;0))`
 
-## Kisan suurin
+## 1.10 Kisan suurin
 
 `=IF(B4="";"";VLOOKUP(C4;'Suurin kala'.$B$2:$U$13;18;0))`
 
-## Suurin (kausi)
+## 1.11 Suurin (kausi)
 
 `=IF(B4="";"";VLOOKUP(C4;'Suurin kala'.$B$2:$U$13;20;0))`
