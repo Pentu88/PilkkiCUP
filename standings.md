@@ -38,9 +38,13 @@ Haetaan arvo `Tulokset` -välilehden `U` -sarakkeesta (haku alueen 20. sarake), 
 
 ## p/Kisa
 
+Lasketaan kilpailijan pistekeskiarvo.
+
 `=IF(B4="";"";D4/F4)`
 
 ## g/Kisa
+
+Lasketaan kilpailijan keskimääräinen saalis osakilpailua kohden. 
 
 `=IF(B4="";"";E4/F4)`
 
