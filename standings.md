@@ -2,7 +2,10 @@
 Tällä sivulla kilpailijat näytetään järjestyksessä.
 
 - [1.1 Sija](#11-Sija)
-- [g/Kisa](#17-gkisa)
+- [1.2 Kilpailija](#12-kilpailija)
+- [1.3 Pisteet](#13-pisteet)
+- [1.4 yht. paino](#14-yht-paino)
+- [1.7 g/Kisa](#17-gkisa)
 
 ![sarjataulukko](Cup_Sarjataulukko.png)
 
