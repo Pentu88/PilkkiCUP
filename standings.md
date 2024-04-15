@@ -1,8 +1,8 @@
 # 1 Sarjataulukko
 Tällä sivulla kilpailijat näytetään järjestyksessä.
 
-- [1.1 Sija](#Sija)
-- [g/Kisa](#gKisa)
+- [1.1 Sija](#11-Sija)
+- [g/Kisa](#17-gkisa)
 
 ![sarjataulukko](Cup_Sarjataulukko.png)
 
