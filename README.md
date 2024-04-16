@@ -4,14 +4,14 @@ PilkkiCUP on pienen porukan leikkimielinen sarjamuotoinen talvikalastus kilpailu
 
 Jokainen tulos on dokumentoitu _PilkkiCUP_ -sarjan ensimäisestä osakilpailusta alkaen. Virallisena kilpailu pöytäkirjana toimii paperinen dokumentti, johon tulokset kirjataan, kun kipailijat tuovat saaliinsa punnittavaksi. 
 
-Tähän dokumentaatioon on kerätty kaavat Excel -dokumentista, joka toimii epävirallisena digitalisoituna pöytäkirjana.
+Tähän dokumentaatioon on kerätty kaavat Excel -asiakirjasta, joka toimii epävirallisena digitalisoituna pöytäkirjana.
 
 ## Dokumentaatio
 ### Välilehdet
 - [1. Sarjataulukko](standings.md)
 - [2. Tulokset](results.md)
 - [3. Suurin kala](biggest_fish.md)
-
+- [4. Sijoitus](ranking.md)
 
 ### Muuta
 - [Funktiot](functions.md)
@@ -19,3 +19,6 @@ Tähän dokumentaatioon on kerätty kaavat Excel -dokumentista, joka toimii epä
 ## TODO
 
 ## Changelog
+
+### 2.0
+
