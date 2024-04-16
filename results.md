@@ -29,7 +29,7 @@ Seuraavaksi tulokseen lisätään taulukossa ylempänä olevat saman pistemäär
 IF((COUNTIF($S$2:S2;S2)-1) > 0; (COUNTIF($T$2:T2;T2)-1); 0)
 ```
 
-**Käytetyt funktiot:** *[IF](functions.md#if) [RANK](functions.md#rank) [COUNTIF](functions.md#countif) [COUNTIFS](functions.md#countifs)*
+**Käytetyt funktiot:** *[IF](functions.md#if) [RANK]([functions.md#rank](https://github.com/Pentu88/PilkkiCUP/blob/main/functions.md#rank)) [COUNTIF](functions.md#countif) [COUNTIFS](functions.md#countifs)*
 
 ## 2.2 Pisteet
 
