@@ -1,5 +1,7 @@
 # 1 Sarjataulukko
-Tällä sivulla kilpailijat esitetään pisteytykseen perustuvassa paremmuus järjestyksessä.
+Tällä välilehdellä kilpailijat esitetään pisteytykseen perustuvassa paremmuus järjestyksessä.
+
+![sarjataulukko](Cup_Sarjataulukko.png)
 
 - [1.1 Sija](#11-Sija)
 - [1.2 Kilpailija](#12-kilpailija)
@@ -9,10 +11,9 @@ Tällä sivulla kilpailijat esitetään pisteytykseen perustuvassa paremmuus jä
 - [1.6 p/Kisa](#16-pkisa)
 - [1.7 g/Kisa](#17-gkisa)
 - [1.8 Voitot](#18-voitot)
-- [1.9 Top 3]
-- [1.10 Suurin]()
-
-![sarjataulukko](Cup_Sarjataulukko.png)
+- [1.9 Top 3](#19-top-3)
+- [1.10 Suurin, kisat](#110-kisan-suurin)
+- [1,11 Suurin, kausi](#111-suurin-kausi)
 
 ## 1.1 Sija
 
