@@ -1,11 +1,16 @@
 # 1 Sarjataulukko
-Tällä sivulla kilpailijat näytetään järjestyksessä.
+Tällä sivulla kilpailijat esitetään pisteytykseen perustuvassa paremmuus järjestyksessä.
 
 - [1.1 Sija](#11-Sija)
 - [1.2 Kilpailija](#12-kilpailija)
 - [1.3 Pisteet](#13-pisteet)
 - [1.4 yht. paino](#14-yht-paino)
+- [1.5 Kisat](#15-kisat)
+- [1.6 p/Kisa](#16-pkisa)
 - [1.7 g/Kisa](#17-gkisa)
+- [1.8 Voitot](#18-voitot)
+- [1.9 Top 3]
+- [1.10 Suurin]()
 
 ![sarjataulukko](Cup_Sarjataulukko.png)
 
@@ -17,12 +22,16 @@ Lisätään järjestyksessä seuraava sija -luku, mikäli "Tulokset" -välilehde
 
 > [!NOTE]
 > Tämä on ongelmallinen tapa, mikäli välissä on kilpailijoita, joilla ei ole vielä tulosta.
+> Tähän voisi käyttää esimerkiksi tulosten / kilpailijoiden määrä -soluja. 
 
 ## 1.2 Kilpailija
 
 Etsitään kilpailijan nimi `Tulokset` -välilehden `B` -sarakkeesta (haku alueen 2. sarake). Tulos palautetaan riviltä, jolla kilpailijan sijoitus vastaa etsittyä sijoitusta. 
 
 `=VLOOKUP(B4;Tulokset.$A$2:$P$13;2;0)`
+
+> [!Note]
+> Tässä tulee käyttää uudessa versiossa "esitys lukua" sijoituksen sijasta. Sijoitus voi olla jaettu tietyissä tilanteissa, lisäksi tuloksen puuttuessa, ei myöskään määritellä sijoitusta. 
 
 ## 1.3 Pisteet
 
@@ -56,13 +65,17 @@ Lasketaan kilpailijan keskimääräinen saalis osakilpailua kohden.
 
 ## 1.8 Voitot
 
+Haetaan arvo `Sijoitus` -välilehden `S` -sarakkeesta (hakualueen 18. sarake), johon on laskettu kilpailijan voitot kuluvalta kaudelta.
+
 `=IF(B4="";"";VLOOKUP(C4;Sijoitus.$B$2:$U$13;18;0))`
 
-## 1.9 Top 3.
+## 1.9 Top 3
 
 `=IF(B4="";"";VLOOKUP(C4;Sijoitus.$B$2:$U$13;18;0) + VLOOKUP(C4;Sijoitus.$B$2:$U$13;19;0) + VLOOKUP(C4;Sijoitus.$B$2:$U$13;20;0))`
 
 ## 1.10 Kisan suurin
+
+Haetaan arvo `Suurin kala` -välilehden `S` -sarakkeesta (hakualueen 18. sarake), johon on laskettu kilpailijan osakilpailu kohtaiset "suurin kala" voitot kuluvalta kaudelta.
 
 `=IF(B4="";"";VLOOKUP(C4;'Suurin kala'.$B$2:$U$13;18;0))`
 
