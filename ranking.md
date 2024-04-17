@@ -1,4 +1,4 @@
 # 4 sija
-Tällä sivulla kilpailijat on laskettu kilpailijan sijoitus kussakin kilpailussa. 
+Tällä välilehdellä on laskettu kilpailijan sijoitus erikseen kussakin osakilpailussa. 
 
 ![sarjataulukko](Cup_sijoitus.png)
