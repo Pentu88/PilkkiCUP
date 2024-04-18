@@ -4,6 +4,11 @@ Tälle sivulle kirjataan kilpailijoiden punnitus tulokset, joiden perusteella la
 
 ![Tulokset](Cup_Tulokset.png)
 
+- [1. Sarjataulukko](standings.md)
+- [2. Tulokset](results.md)
+- [3. Suurin kala](biggest_fish.md)
+- [4. Sijoitus](ranking.md)
+
 ## 2.1 Sija
 
 Sarakkeeseen `A` lasketaan jokaiselle kyseisellä kaudella osakilpailuun osallistuneelle henkilölle sijoitus vertailemalla kerättyjä pisteitä muiden kilpailijoiden pisteisiin. Pisteiden ollessa tasan, vertaillaan myös kokonais saaliita.
