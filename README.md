@@ -7,7 +7,7 @@ Jokainen tulos on dokumentoitu _PilkkiCUP_ -sarjan ensimäisestä osakilpailusta
 Tähän dokumentaatioon on kerätty kaavat Excel -asiakirjasta, joka toimii epävirallisena digitalisoituna pöytäkirjana.
 
 ## Pisteytys
-Jokainen osallistuja saa pisteitä, riippumatta siitä saako saalista. Suurimman saaliin nostanut saa osallistuja määrän verran pisteitä, toiseksi suurin saalis oikeuttaa yhden pisteen pienempään pottiin. Näin vähiten saalista saanut kilpailija saa yhden pisteen. Kussakin osakilpailussa punnitaan ja palkitaan myös suurin yksittäinen kala, se ei kuitenkaan vaikuta pisteytykseen.
+Jokainen osallistuja saa pisteitä, riippumatta siitä saako saalista. Suurimman saaliin nostanut kilpailija saa osallistuja määrän verran pisteitä, toiseksi suurin saalis oikeuttaa yhden pisteen pienempään pottiin. Näin vähiten saalista saanut kilpailija saa yhden pisteen. Kussakin osakilpailussa punnitaan ja palkitaan myös suurin yksittäinen kala, mikä ei kuitenkaan vaikuta pisteytykseen.
 
 ## Dokumentaatio
 ### Välilehdet
