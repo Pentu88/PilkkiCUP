@@ -3,17 +3,21 @@ Tällä välilehdellä kilpailijat esitetään pisteytykseen perustuvassa paremm
 
 ![sarjataulukko](Cup_Sarjataulukko.png)
 
-- [1.1 Sija](#11-Sija)
-- [1.2 Kilpailija](#12-kilpailija)
-- [1.3 Pisteet](#13-pisteet)
-- [1.4 yht. paino](#14-yht-paino)
-- [1.5 Kisat](#15-kisat)
-- [1.6 p/Kisa](#16-pkisa)
-- [1.7 g/Kisa](#17-gkisa)
-- [1.8 Voitot](#18-voitot)
-- [1.9 Top 3](#19-top-3)
-- [1.10 Suurin, kisat](#110-kisan-suurin)
-- [1,11 Suurin, kausi](#111-suurin-kausi)
+- [1. Sarjataulukko](standings.md)
+  - [1.1 Sija](#11-Sija)
+  - [1.2 Kilpailija](#12-kilpailija)
+  - [1.3 Pisteet](#13-pisteet)
+  - [1.4 yht. paino](#14-yht-paino)
+  - [1.5 Kisat](#15-kisat)
+  - [1.6 p/Kisa](#16-pkisa)
+  - [1.7 g/Kisa](#17-gkisa)
+  - [1.8 Voitot](#18-voitot)
+  - [1.9 Top 3](#19-top-3)
+  - [1.10 Suurin, kisat](#110-kisan-suurin)
+  - [1,11 Suurin, kausi](#111-suurin-kausi)
+- [2. Tulokset](results.md)
+- [3. Suurin kala](biggest_fish.md)
+- [4. Sijoitus](ranking.md)
 
 ## 1.1 Sija
 
