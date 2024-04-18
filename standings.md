@@ -3,7 +3,7 @@ Tällä välilehdellä kilpailijat esitetään pisteytykseen perustuvassa paremm
 
 ![sarjataulukko](Cup_Sarjataulukko.png)
 
-- [Sarjataulukko](standings.md)
+- [1. Sarjataulukko](standings.md)
   - [1.1 Sija](#11-Sija)
   - [1.2 Kilpailija](#12-kilpailija)
   - [1.3 Pisteet](#13-pisteet)
