@@ -3,6 +3,11 @@ Tällä välilehdellä on laskettu kilpailijan sijoitus erikseen kussakin osakil
 
 ![sarjataulukko](Cup_sijoitus.png)
 
+- [1. Sarjataulukko](standings.md)
+- [2. Tulokset](results.md)
+- [3. Suurin kala](biggest_fish.md)
+- [4. Sijoitus](ranking.md)
+
 ## sija
 `=Tulokset.B2`
 
