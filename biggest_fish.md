@@ -4,10 +4,10 @@ Tälle välilehdelle kirjataan suurimman kalan paino osakilpailun sarakkaaseen k
 
 ![Tulokset](Cup_suurin.png)
 
-- [1. Sarjataulukko](standings.md)
-- [2. Tulokset](results.md)
-- [3. Suurin kala](biggest_fish.md)
-- [4. Sijoitus](ranking.md)
+- [3.1 Sarjataulukko](standings.md)
+- [3.2 Tulokset](results.md)
+- [3.3 Suurin kala](biggest_fish.md)
+- [3.4 Sijoitus](ranking.md)
 
 ## Sija
 
