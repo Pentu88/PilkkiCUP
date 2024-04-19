@@ -20,6 +20,7 @@ Jokainen osallistuja saa pisteitä, riippumatta siitä saako saalista. Suurimman
 - [Funktiot](functions.md)
 
 ## TODO
+-[ ] #1
 
 ## Changelog
 
