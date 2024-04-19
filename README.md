@@ -21,8 +21,10 @@ Jokainen osallistuja saa pisteitä, riippumatta siitä saako saalista. Suurimman
 
 ## TODO
 - [ ] https://github.com/Pentu88/PilkkiCUP/issues/1
+- [ ] https://github.com/Pentu88/PilkkiCUP/issues/2
 
 ## Changelog
 
 ### 2.0
+Ensinmäinen riittävän hyvä versio
 
