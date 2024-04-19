@@ -20,7 +20,7 @@ Jokainen osallistuja saa pisteitä, riippumatta siitä saako saalista. Suurimman
 - [Funktiot](functions.md)
 
 ## TODO
-- [ ] #1
+- [ ] https://github.com/Pentu88/PilkkiCUP/issues/1
 
 ## Changelog
 
