@@ -6,6 +6,10 @@ Tälle sivulle kirjataan kilpailijoiden punnitus tulokset, joiden perusteella la
 
 - [1. Sarjataulukko](standings.md)
 - [2. Tulokset](results.md)
+  - [2.1 Sija](#21-sija)
+  - [2.2 Pisteet](#22-pisteet)
+  - [2.3 Saalis](#23-saalis)
+  - [2.4 Osallistuminen](#24-osallistuminen) 
 - [3. Suurin kala](biggest_fish.md)
 - [4. Sijoitus](ranking.md)
 
